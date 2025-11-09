@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 
 <form-validation>
 	<formset>
@@ -17468,7 +17468,7 @@
 			
 			<field property="nomeUsuario"
 				depends="caracteresespeciais">
-				<arg0 key="Nome do Usuárioº" resource="false" />
+				<arg0 key="Nome do Usuárioº" resource="false" />
 			</field>
 			
 			<field property="loginUsuario"

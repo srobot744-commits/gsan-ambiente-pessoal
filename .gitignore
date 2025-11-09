@@ -27,3 +27,4 @@ src/gcom/properties/token.properties
 .vscode/
 scripts/*.sh
 .gradle/
+config/

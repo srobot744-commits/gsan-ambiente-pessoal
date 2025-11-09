@@ -1,28 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE ejb-jar PUBLIC "-//Sun Microsystems, Inc.//DTD Enterprise JavaBeans 2.0//EN" "http://java.sun.com/dtd/ejb-jar_2_0.dtd">
+<!DOCTYPE ejb-jar PUBLIC "-//Sun Microsystems, Inc.//DTD Enterprise JavaBeans 2.0//EN"
+ "http://java.sun.com/dtd/ejb-jar_2_0.dtd">
 <ejb-jar>
-	<enterprise-beans>
-		<message-driven>
-			<display-name>
-				BatchInserirResumoAcoesCobrancaCronogramaMDB
-			</display-name>
-			<ejb-name>BatchInserirResumoAcoesCobrancaCronogramaMDB</ejb-name>
-			<ejb-class>
-				gcom.batch.cobranca.BatchInserirResumoAcoesCobrancaCronogramaMDB
-			</ejb-class>
-			<transaction-type>Container</transaction-type>
-			<message-driven-destination>
-				<destination-type>javax.jms.Queue</destination-type>
-			</message-driven-destination>
-		</message-driven>
-	</enterprise-beans>
-	<assembly-descriptor>
-		<container-transaction>
-			<method>
-				<ejb-name>BatchInserirResumoAcoesCobrancaCronogramaMDB</ejb-name>
-				<method-name>*</method-name>
-			</method>
-			<trans-attribute>NotSupported</trans-attribute>
-		</container-transaction>
-	</assembly-descriptor>
+  <display-name>batchInserirResumoAcoesCobrancaCronograma</display-name>
+  <enterprise-beans>
+    <session>
+      <ejb-name>batchInserirResumoAcoesCobrancaCronograma</ejb-name>
+      <local-home>gcom.batch.batchInserirResumoAcoesCobrancaCronogramaLocalHome</local-home>
+      <local>gcom.batch.batchInserirResumoAcoesCobrancaCronogramaLocal</local>
+      <ejb-class>gcom.batch.batchInserirResumoAcoesCobrancaCronograma</ejb-class>
+      <session-type>Stateless</session-type>
+      <transaction-type>Container</transaction-type>
+    </session>
+  </enterprise-beans>
+  <assembly-descriptor>
+    <container-transaction>
+      <method>
+        <ejb-name>batchInserirResumoAcoesCobrancaCronograma</ejb-name>
+        <method-name>*</method-name>
+      </method>
+      <trans-attribute>Required</trans-attribute>
+    </container-transaction>
+  </assembly-descriptor>
 </ejb-jar>

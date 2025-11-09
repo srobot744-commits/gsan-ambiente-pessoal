@@ -891,6 +891,10 @@
 	</module>
 	
 	<module>
+		<ejb>ControladorAtualizacaoCadastroGCOM.jar</ejb>
+	</module>
+	
+	<module>
 		<ejb>ControladorRetificarContaGCOM.jar</ejb>
 	</module>
 	

@@ -826,7 +826,7 @@ public class HibernateUtil {
 		try {
 
 			configurationGerencial = new Configuration();
-			configurationGerencial.setProperty("hibernate.connection.datasource", "java:/PostgresGerencialDS");
+			configurationGerencial.setProperty("hibernate.connection.datasource", "java:/jdbc/GSAN_GERENCIAL");
 
 			configurationGerencial.addClass(UnResumoArrecadacao.class).addClass(UnResumoArrecadacaoAguaEsgoto.class).addClass(UnResumoArrecadacaoCredito.class)
 					.addClass(UnResumoArrecadacaoOutro.class).addClass(UnResumoFaturamento.class).addClass(UnResumoColetaEsgoto.class)

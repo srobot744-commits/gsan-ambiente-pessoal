@@ -33,7 +33,7 @@
 	<%@ include file="/jsp/util/cabecalho.jsp"%>
 	<%@ include file="/jsp/util/menu.jsp"%>
 
-	<table width="770" border="0" cellspacing="5" cellpadding="0">
+	<table width="1024" border="0" cellspacing="5" cellpadding="0">
 		<tr>
 			<td width="130" valign="top" class="leftcoltext">
 			<div align="center">
@@ -63,7 +63,7 @@
 			<p align="left">&nbsp;</p>
 			</div>
 			</td>
-			<td width="625" valign="top" class="centercoltext">
+			<td width="824" valign="top" class="centercoltext">
 			<table height="100%">
 				<tr>
 					<td></td>
@@ -239,7 +239,7 @@
 															<table bgcolor="#cbe5fe" border="0" cellpadding="0"
 																cellspacing="0" width="100%">
 																<tr>
-																	<td height="20" width="150">&nbsp;</td>
+																	<td height="20" width="200">&nbsp;</td>
 
 																	<td align="left" bgcolor="#cbe5fe" width="126"><span
 																		style="font-size: 11px;"><strong>Total da Situação</strong></span></td>
@@ -291,7 +291,7 @@
 												<table bgcolor="#cbe5fe" border="0" cellpadding="0"
 													cellspacing="0" width="100%">
 													<tr>
-														<td height="20" width="150">&nbsp;</td>
+														<td height="20" width="200">&nbsp;</td>
 
 														<td align="left" bgcolor="#cbe5fe" width="126"><span
 															style="font-size: 11px;"><strong>Total do Setor Comercial</strong></span></td>
@@ -329,7 +329,7 @@
 											<table bgcolor="#cbe5fe" border="0" cellpadding="0"
 												cellspacing="0" width="100%">
 												<tr>
-													<td height="20" width="150">&nbsp;</td>
+													<td height="20" width="200">&nbsp;</td>
 
 													<td align="left" bgcolor="#cbe5fe" width="126"><span
 														style="font-size: 11px;"><strong>Total da Localidade</strong></span></td>
@@ -360,7 +360,7 @@
 									<table bgcolor="#cbe5fe" border="0" cellpadding="0"
 										cellspacing="0" width="100%">
 										<tr>
-											<td height="20" width="150">&nbsp;</td>
+											<td height="20" width="200">&nbsp;</td>
 
 											<td align="left" bgcolor="#cbe5fe" width="126"><span
 												style="font-size: 11px;"><strong>Total da Unidade Negócio</strong></span></td>
@@ -396,7 +396,7 @@
 								cellspacing="0" width="100%">
 
 								<tr>
-									<td height="20" width="150">&nbsp;</td>
+									<td height="20" width="200">&nbsp;</td>
 
 									<td align="left" bgcolor="#cbe5fe" width="126"><span
 										style="font-size: 11px;"><strong>Total da Gerência</strong></span></td>
@@ -429,7 +429,7 @@
 								cellspacing="0">
 
 								<tr>
-									<td height="20" width="150">&nbsp;</td>
+									<td height="20" width="200">&nbsp;</td>
 									<td align="left" bgcolor="#cbe5fe" width="126"><span
 										style="font-size: 11px;"><strong>Total Geral</strong></span></td>
 									<td align="center" bgcolor="#99ccff" width="91"><strong><bean:write

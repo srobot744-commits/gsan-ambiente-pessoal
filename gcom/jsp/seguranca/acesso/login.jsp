@@ -37,9 +37,9 @@
 <body leftmargin="5" topmargin="5" onLoad="javascript:setarFoco();">
 	
 	<%@ include file="/jsp/util/cabecalho.jsp" %>
-	<table width="770" border="0" cellspacing="5" cellpadding="0">
+	<table width="1024" border="0" cellspacing="5" cellpadding="0">
   		<tr>
-    		<td width="115" valign="top" class="leftcoltext">
+    		<td width="200" valign="top" class="leftcoltext">
       			<div align="center">
         			<form action="efetuarLoginAction.do" 
         		   		method="post" autocomplete="off">
@@ -47,9 +47,9 @@
 	        		<table cellpadding="3" class="tableinlayer">
 	          			<tr>
 			            <td>
-				        	<table width="100" border="0" align="center" >
+				        	<table width="200" border="0" align="center" >
 		                    	<tr>
-		                      		<td width="94">Login</td>
+		                      		<td width="120">Login</td>
 		                    	</tr>
 			                    
 			                    <tr>

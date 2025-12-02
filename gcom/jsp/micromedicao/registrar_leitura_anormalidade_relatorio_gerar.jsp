@@ -492,7 +492,7 @@
 	<%@ include file="/jsp/util/cabecalho.jsp"%>
 	<%@ include file="/jsp/util/menu.jsp"%>
 
-	<table width="770" border="0" cellspacing="5" cellpadding="0">
+	<table width="1024" border="0" cellspacing="5" cellpadding="0">
 		<tr>
 			<td width="130" valign="top" class="leftcoltext">
 			<div align="center">
@@ -525,7 +525,7 @@
 			<p align="left">&nbsp;</p>
 			</div>
 			</td>
-			<td width="625" valign="top" class="centercoltext">
+			<td width="824" valign="top" class="centercoltext">
 			<table height="100%">
 				<tr>
 					<td></td>
@@ -550,7 +550,7 @@
 					anormalidades, informe os dados abaixo:</td>
 				</tr>
 				<tr>
-					<td width="150"><strong>Grupo de Faturamento:</strong></td>
+					<td width="200"><strong>Grupo de Faturamento:</strong></td>
 					<td align="left"><html:select property="idFaturamentoGrupo"
 						tabindex="1">
 						<html:option value="-1"> &nbsp; </html:option>

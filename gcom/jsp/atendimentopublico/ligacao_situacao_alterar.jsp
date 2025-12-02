@@ -185,7 +185,7 @@
 	method="post">
 	<%@ include file="/jsp/util/cabecalho.jsp"%>
 	<%@ include file="/jsp/util/menu.jsp"%>
-	<table width="770" border="0" cellspacing="5" cellpadding="0">
+	<table width="1024" border="0" cellspacing="5" cellpadding="0">
 		<tr>
 			<td width="130" valign="top" class="leftcoltext">
 			<div align="center">
@@ -247,7 +247,7 @@
 							</td>
 						</tr>
 						<tr>
-							<td width="150"><strong>Ordem de Servi&ccedil;o:<font color="#FF0000">*</font>
+							<td width="200"><strong>Ordem de Servi&ccedil;o:<font color="#FF0000">*</font>
 							</strong></td>
 							<td><html:text property="idOrdemServico" size="8"
 								maxlength="9"
@@ -281,7 +281,7 @@
 									<td>
 									<table border="0" width="100%">
 										<tr>
-											<td width="150" height="10"><strong>Matr&iacute;cula do
+											<td width="200" height="10"><strong>Matr&iacute;cula do
 											Im&oacute;vel:</strong></td>
 											<td><html:text
 												property="matriculaImovel" readonly="true"
@@ -453,7 +453,7 @@
 				
 				<tr>
 
-							<td height="19" width="150">&nbsp;</td>
+							<td height="19" width="200">&nbsp;</td>
 
 							<td>
 

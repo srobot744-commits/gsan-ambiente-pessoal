@@ -136,7 +136,7 @@ function recuperarDadosPopup(codigoRegistro, descricaoRegistro, tipoConsulta) {
 	<%@ include file="/jsp/util/cabecalho.jsp"%>
 	<%@ include file="/jsp/util/menu.jsp"%>
 
-	<table width="770" border="0" cellspacing="5" cellpadding="0">
+	<table width="1024" border="0" cellspacing="5" cellpadding="0">
 		<tr>
 			<td width="135" valign="top" class="leftcoltext">
 				<div align="center">
@@ -171,7 +171,7 @@ function recuperarDadosPopup(codigoRegistro, descricaoRegistro, tipoConsulta) {
 				</div>
 			</td>
 
-			<td width="625" valign="top" class="centercoltext">
+			<td width="824" valign="top" class="centercoltext">
 
 				<table height="100%">
 					<tr>
@@ -304,7 +304,7 @@ function recuperarDadosPopup(codigoRegistro, descricaoRegistro, tipoConsulta) {
 									<td width="100%" align="center">
 										<table width="100%" border="0">
 											<tr>
-												<td height="30" width="150"><strong>Geração:</strong></td>
+												<td height="30" width="200"><strong>Geração:</strong></td>
 												<td>
 													<html:text property="dataGeracaoMovimentoInicio" size="11" maxlength="10" tabindex="6" onkeyup="mascaraData(this, event);replicar(this, document.forms[0].dataGeracaoMovimentoFim)" 
 													onkeypress="return isCampoNumerico(event);"/>
@@ -323,7 +323,7 @@ function recuperarDadosPopup(codigoRegistro, descricaoRegistro, tipoConsulta) {
 											</tr>
 											
 											<tr>
-												<td height="30" width="150"><strong>Processamento:</strong></td>
+												<td height="30" width="200"><strong>Processamento:</strong></td>
 												<td>
 													<html:text property="dataProcessamentoMovimentoInicio" size="11" maxlength="10" tabindex="10" onkeyup="mascaraData(this, event);replicar(this, document.forms[0].dataProcessamentoMovimentoFim)" 
 													onkeypress="return isCampoNumerico(event);"/>
@@ -363,7 +363,7 @@ function recuperarDadosPopup(codigoRegistro, descricaoRegistro, tipoConsulta) {
 
 										<table width="100%" border="0">
 											<tr>
-												<td HEIGHT="30" width="150"><strong>Itens em Ocorrência:</td>
+												<td HEIGHT="30" width="200"><strong>Itens em Ocorrência:</td>
 												<td>
 													<%--<logic:equal name="relatorio" scope="request" value="<%=""+ConstantesSistema.NAO%>"> --%>
 													<logic:equal name="FiltrarMovimentoArrecadadoresActionForm" property="indicadorRelatorio" value="<%=""+ConstantesSistema.NAO%>">
@@ -385,7 +385,7 @@ function recuperarDadosPopup(codigoRegistro, descricaoRegistro, tipoConsulta) {
 											</tr>
 											
 											<tr>
-												<td height="30" width="150"><strong>Itens não Aceitos:</td>
+												<td height="30" width="200"><strong>Itens não Aceitos:</td>
 												<td>
 													<%--<logic:equal name="relatorio" scope="request" value="<%=""+ConstantesSistema.NAO%>">--%>
 													<logic:equal name="FiltrarMovimentoArrecadadoresActionForm" property="indicadorRelatorio" value="<%=""+ConstantesSistema.NAO%>">

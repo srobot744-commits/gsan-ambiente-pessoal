@@ -62,7 +62,7 @@
 		type="gcom.gui.cobranca.contratoparcelamento.FiltrarResolucaoDiretoriaContratoParcelamentoActionForm"
 		method="post">
 
-<table width="770" border="0" cellspacing="5" cellpadding="0">
+<table width="1024" border="0" cellspacing="5" cellpadding="0">
 	<tr>
 		<td width="115" valign="top" class="leftcoltext">
 		<div align="center">
@@ -125,7 +125,7 @@
 				<strong>Atualizar</strong></td>
 			</tr>
 			<tr>
-				<td width="150"><strong>N&uacute;mero da RD:</strong></td>
+				<td width="200"><strong>N&uacute;mero da RD:</strong></td>
 				<td colspan="2"><html:text property="numero" size="15"
 					value="${contratoCadastrar.numero}" maxlength="15" /></td>
 			</tr>

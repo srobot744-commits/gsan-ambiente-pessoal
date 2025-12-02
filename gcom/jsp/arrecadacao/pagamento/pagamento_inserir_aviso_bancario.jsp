@@ -154,7 +154,7 @@ function selecionarFormaArrecadacao(form){
 
 <input type="hidden" id="FICHA" value="<%= "" + ArrecadacaoForma.FICHA_COMPENSACAO %>"/>
 
-<table width="770" border="0" cellspacing="5" cellpadding="0">
+<table width="1024" border="0" cellspacing="5" cellpadding="0">
   <tr>
     <td width="165" valign="top" class="leftcoltext">
       <div align="center">
@@ -188,7 +188,7 @@ function selecionarFormaArrecadacao(form){
         <p align="left">&nbsp;</p>
       </div>
     </td>
-    <td width="625" valign="top" class="centercoltext">
+    <td width="824" valign="top" class="centercoltext">
       <table height="100%">
         <tr>
           <td></td>

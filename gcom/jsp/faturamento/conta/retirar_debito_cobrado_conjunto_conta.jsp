@@ -147,7 +147,7 @@
 
 			<table width="100%" border="0" align="center">
 				<tr>
-					<td width="150" height="20"><strong>Motivo de Retificação:<font
+					<td width="200" height="20"><strong>Motivo de Retificação:<font
 						color="#FF0000">*</font></strong></td>
 					<td colspan="3"><html:select property="idMotivoRetificacao"
 						style="width: 250px;" tabindex="1">

@@ -38,7 +38,7 @@
 <%@ include file="/jsp/util/cabecalho.jsp"%>
 <%@ include file="/jsp/util/menu.jsp" %>
 
-<table width="770" border="0" cellspacing="5" cellpadding="0">
+<table width="1024" border="0" cellspacing="5" cellpadding="0">
   <tr>
     <td width="130" valign="top" class="leftcoltext">
       <div align="center">
@@ -73,7 +73,7 @@
       	</div>
       	</td>
 
-	<td width="625" valign="top" class="centercoltext">
+	<td width="824" valign="top" class="centercoltext">
 
         <table height="100%">
         <tr>
@@ -95,13 +95,13 @@
       	<td colspan="4">Dados do Movimento do Arrecadador:</td>
       </tr>
       <tr>
-		<td height="20" width="150"><strong>Arrecadador:</strong></td>
+		<td height="20" width="200"><strong>Arrecadador:</strong></td>
 		<td colspan="3">
 			<html:text property="codigoNomeArrecadador" size="40" readonly="true" style="background-color:#EFEFEF; border:0; color: #000000"/>
 		</td>
 	  </tr>
 	  <tr>
-		<td height="20" width="150"><strong>Remessa:</strong></td>
+		<td height="20" width="200"><strong>Remessa:</strong></td>
 		<td width="200">
 			<html:text property="codigoRemessa" size="15" readonly="true" style="background-color:#EFEFEF; border:0; color: #000000"/>
 		</td>
@@ -111,13 +111,13 @@
 		</td>
 	  </tr>			
 	  <tr>
-		<td height="20" width="150"><strong>Número Sequencial Arquivo (NSA):</strong></td>
+		<td height="20" width="200"><strong>Número Sequencial Arquivo (NSA):</strong></td>
 		<td colspan="3">
 			<html:text property="nsa" size="11" readonly="true" style="background-color:#EFEFEF; border:0; color: #000000"/>
 		</td>
 	  </tr>
 	  <tr>
-		<td height="30" width="150"><strong>Data de Geração:</strong></td>
+		<td height="30" width="200"><strong>Data de Geração:</strong></td>
 		<td colspan="3">
 			<html:text property="dataGeracao" size="11" readonly="true" style="background-color:#EFEFEF; border:0; color: #000000"/>
 		</td>
@@ -183,25 +183,25 @@
       		</td>
       </tr>
       <tr>
-		<td height="30" width="150"><strong>Situação:</strong></td>
+		<td height="30" width="200"><strong>Situação:</strong></td>
 		<td colspan="3">
 			<html:text property="situacaoMovimento" size="15" readonly="true" style="background-color:#EFEFEF; border:0; color: #000000"/>
 		</td>
 	  </tr>
 	  <tr>
-		<td height="20" width="150"><strong>Valor Total do Movimento:</strong></td>
+		<td height="20" width="200"><strong>Valor Total do Movimento:</strong></td>
 		<td colspan="3">
 			<html:text property="valorTotalMovimento" size="15" readonly="true" style="background-color:#EFEFEF; border:0; color: #000000"/>
 		</td>
 	  </tr>
 	  <tr>
-		<td height="20" width="150"><strong>Valor Avisos Bancários:</strong></td>
+		<td height="20" width="200"><strong>Valor Avisos Bancários:</strong></td>
 		<td colspan="3">
 			<html:text property="valorTotalAvisosBancarios" size="15" readonly="true" style="background-color:#EFEFEF; border:0; color: #000000"/>
 		</td>
 	  </tr>
 	  <tr>
-		<td height="20" width="150"><strong>Diferença:</strong></td>
+		<td height="20" width="200"><strong>Diferença:</strong></td>
 		<td colspan="3">
 			<html:text property="valordiferencaVlMovimentoVlAvisos" size="15" readonly="true" style="background-color:#EFEFEF; border:0; color: #000000"/>
 		</td>

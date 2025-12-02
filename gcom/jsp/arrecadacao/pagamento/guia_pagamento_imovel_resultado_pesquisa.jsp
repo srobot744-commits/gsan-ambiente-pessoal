@@ -51,13 +51,13 @@
 				<td width="100%" align="center">
 				  <table width="100%" border="0">
 				    <tr> 
-					  <td height="10" width="150"><strong>Matrícula do Imóvel:</strong></td>
+					  <td height="10" width="200"><strong>Matrícula do Imóvel:</strong></td>
 					  <td>					    					    
 						<html:text name="PesquisarGuiaPagamentoActionForm" property="idImovel" size="9" readonly="true" style="background-color:#EFEFEF; border:0"/>
 					  </td>
 					</tr>
 					<tr> 
-					  <td height="10" width="150"><strong>Inscrição:</strong></td>
+					  <td height="10" width="200"><strong>Inscrição:</strong></td>
 					  <td>					    					    
 						<html:text name="PesquisarGuiaPagamentoActionForm" property="inscricaoImovel" size="25" readonly="true" style="background-color:#EFEFEF; border:0"/>
 					  </td>

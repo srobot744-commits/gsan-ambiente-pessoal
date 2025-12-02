@@ -51,6 +51,34 @@ public class FiltroAtualizarQuadroAvisos extends HttpServlet implements Filter {
 	 * @throws ServletException
 	 * @throws IOException
 	 */
+
+    public void doFilter(ServletRequest request, ServletResponse response, FilterChain filterChain) throws ServletException, IOException {
+        try {
+
+                // Busca a mensagem de avisos 
+                SistemaParametro sistemaParametro = Fachada.getInstancia()
+                                .pesquisarParametrosDoSistema();
+
+                // Prote√ß√£o contra retorno nulo ou mensagem nula
+                if (sistemaParametro != null && sistemaParametro.getMensagemSistema() != null) {
+                        request.setAttribute("mensagemAviso",
+                                        sistemaParametro.getMensagemSistema());
+                } else {
+                        // opcional: garante que o atributo exista, mesmo vazio
+                        request.setAttribute("mensagemAviso", "");
+                }
+
+                filterChain.doFilter(request, response);
+
+        } catch (ServletException sx) {
+                throw sx;
+        } catch (IOException iox) {
+                throw iox;
+        }
+    }
+
+
+/*
 	public void doFilter(ServletRequest request, ServletResponse response, FilterChain filterChain) throws ServletException, IOException {
 		try {
 
@@ -70,7 +98,7 @@ public class FiltroAtualizarQuadroAvisos extends HttpServlet implements Filter {
 			throw iox;
 		}
 	}
-
+*/
 	
 	/**
 	 * <Breve descriÁ„o sobre o caso de uso>

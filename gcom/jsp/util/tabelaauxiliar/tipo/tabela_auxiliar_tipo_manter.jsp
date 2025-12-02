@@ -46,13 +46,13 @@
 <%@ include file="/jsp/util/cabecalho.jsp"%>
 <%@ include file="/jsp/util/menu.jsp" %>
 
-<table width="770" border="0" cellspacing="5" cellpadding="0">
+<table width="1024" border="0" cellspacing="5" cellpadding="0">
   <tr>
     <td width="130" valign="top" class="leftcoltext">
  	      <%@ include file="/jsp/util/informacoes_usuario.jsp"%>
         <%@ include file="/jsp/util/mensagens.jsp"%>
     </td>
-    <td width="625" valign="top" bgcolor="#003399" class="centercoltext">
+    <td width="824" valign="top" bgcolor="#003399" class="centercoltext">
       <table>
         <tr>
           <td></td>

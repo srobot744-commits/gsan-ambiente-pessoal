@@ -29,7 +29,7 @@
 <%@ include file="/jsp/util/cabecalho.jsp"%>
 <%@ include file="/jsp/util/menu.jsp" %>
 
-<table width="770" border="0" cellspacing="5" cellpadding="0">
+<table width="1024" border="0" cellspacing="5" cellpadding="0">
   <tr>
     <td width="130" valign="top" class="leftcoltext">
       <div align="center">
@@ -96,13 +96,13 @@
 			
 						<table width="100%" border="0">
 						<tr> 
-							<td height="10" width="150"><strong>Matrícula:</strong></td>
+							<td height="10" width="200"><strong>Matrícula:</strong></td>
 							<td>
 								<html:text property="matriculaImovel" size="25" readonly="true" style="background-color:#EFEFEF; border:0"/>
 							</td>
 						</tr>
 						<tr> 
-							<td height="10" width="150"><strong>Inscrição:</strong></td>
+							<td height="10" width="200"><strong>Inscrição:</strong></td>
 							<td>
 								<html:text property="inscricaoImovel" size="25" readonly="true" style="background-color:#EFEFEF; border:0"/>
 							</td>
@@ -194,8 +194,8 @@
 			
 						<table width="100%" border="0">
 						<tr> 
-							<td height="10" width="150"><strong>Forma:</strong></td>
-					        <td width="150">
+							<td height="10" width="200"><strong>Forma:</strong></td>
+					        <td width="200">
 								<html:text property="formaEmissao" size="25" readonly="true" style="background-color:#EFEFEF; border:0;"/>
 					        </td>
 					        <td height="10" width="110"><strong>Data/Hora:</strong></td>

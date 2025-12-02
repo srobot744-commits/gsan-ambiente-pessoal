@@ -31,7 +31,7 @@ function fechar(){
 
 	<table width="600" border="0" cellspacing="5" cellpadding="0">
 		<tr>
-			<td width="625" valign="top" class="centercoltext">
+			<td width="824" valign="top" class="centercoltext">
 			<table height="100%">
 				<tr>
 					<td></td>

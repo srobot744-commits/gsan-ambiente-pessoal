@@ -561,7 +561,7 @@
 		<%@ include file="/jsp/util/cabecalho.jsp"%>
 		<%@ include file="/jsp/util/menu.jsp"%>
 
-		<table width="770" border="0" cellspacing="5" cellpadding="0">
+		<table width="1024" border="0" cellspacing="5" cellpadding="0">
 			<tr>
 				<td width="130" valign="top" class="leftcoltext">
 					<div align="center">
@@ -743,7 +743,7 @@
 													<td width="100%" align="center">
 														<table width="100%" border="0">
 															<tr>
-																<td height="10" width="150"><strong>Situação
+																<td height="10" width="200"><strong>Situação
 																		de Esgoto:<font color="#FF0000">*</font>
 																</strong></td>
 																<td><html:select property="ligacaoEsgotoSituacaoID"

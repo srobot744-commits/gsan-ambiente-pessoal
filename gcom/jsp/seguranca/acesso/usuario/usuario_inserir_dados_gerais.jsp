@@ -426,7 +426,7 @@ function desabilitaCPFeNasc(){
 	<INPUT TYPE="hidden" ID="IDADE_MINIMA_FUNCIONARIO"
 		value="${requestScope.idadeMinimaFuncionario}" />
 
-	<table width="770" border="0" cellspacing="5" cellpadding="0">
+	<table width="1024" border="0" cellspacing="5" cellpadding="0">
 		<tr>
 			<td width="130" valign="top" class="leftcoltext">
 			<div align="center">
@@ -458,7 +458,7 @@ function desabilitaCPFeNasc(){
 			<p align="left">&nbsp;</p>
 			</div>
 			</td>
-			<td width="625" valign="top" class="centercoltext">
+			<td width="824" valign="top" class="centercoltext">
 			<table height="100%">
 				<tr>
 					<td></td>

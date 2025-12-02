@@ -201,7 +201,7 @@
 				
 				
 				<tr>
-			      	<td HEIGHT="30" width="150"><strong>Ítens em Ocorrência:</td>
+			      	<td HEIGHT="30" width="200"><strong>Ítens em Ocorrência:</td>
 			        <td>
 						<html:select property="movimentoItemOcorrencia" style="width: 200px;" tabindex="14">
 							<html:option value="<%=""+ConstantesSistema.NUMERO_NAO_INFORMADO%>">&nbsp;</html:option>
@@ -211,7 +211,7 @@
 					</td>
 			    </tr>
 				<tr>
-			      	<td HEIGHT="30" width="150"><strong>Ítens não Aceitos:</td>
+			      	<td HEIGHT="30" width="200"><strong>Ítens não Aceitos:</td>
 			        <td>
 						<html:select property="movimentoItemAceito" style="width: 200px;" tabindex="15">
 							<html:option value="<%=""+ConstantesSistema.NUMERO_NAO_INFORMADO%>">&nbsp;</html:option>

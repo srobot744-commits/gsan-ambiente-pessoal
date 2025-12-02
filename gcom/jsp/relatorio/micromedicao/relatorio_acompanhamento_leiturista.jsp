@@ -117,7 +117,7 @@
 	<%@ include file="/jsp/util/cabecalho.jsp"%>
 	<%@ include file="/jsp/util/menu.jsp"%>
 
-	<table width="770" border="0" cellspacing="5" cellpadding="0">
+	<table width="1024" border="0" cellspacing="5" cellpadding="0">
 		<tr>
 			<td width="130" valign="top" class="leftcoltext">
 			<div align="center">
@@ -191,7 +191,7 @@
 				</tr>
 
 				<tr>
-					<td width="150"><strong>Grupo de Faturamento:</strong></td>
+					<td width="200"><strong>Grupo de Faturamento:</strong></td>
 					<td colspan="2" align="left"><html:select
 						property="idGrupoFaturamento" tabindex="2" onchange="javascript:listarRota()">
 						<html:option value="-1">&nbsp;</html:option>
@@ -292,7 +292,7 @@
 				
 
 				<tr>
-					<td width="150"><strong>Empresa:</strong></td>
+					<td width="200"><strong>Empresa:</strong></td>
 					<td colspan="2" align="left">
 						<html:select property="idEmpresa" tabindex="3"
 							onchange="javascript:listarLeiturista()">

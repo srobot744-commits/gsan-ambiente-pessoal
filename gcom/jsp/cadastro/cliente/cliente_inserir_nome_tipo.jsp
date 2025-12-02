@@ -213,11 +213,11 @@ function validarNIS(event) {
 
 	<input type="hidden" name="numeroPagina" value="1" />
 	<!--<input type="hidden" name="indicadorExibicaoNomeConta" />
-	--><table width="770" border="0" cellspacing="5" cellpadding="0">
+	--><table width="1024" border="0" cellspacing="5" cellpadding="0">
 		<tr>
 			<!-- CASO POPUP: Retira a coluna de Informacoes do Usuario -->
 			<logic:equal name="POPUP" value="false" scope="session">
-			<td width="150" valign="top" class="leftcoltext">
+			<td width="200" valign="top" class="leftcoltext">
 			<div align="center">
 			<p align="left">&nbsp;</p>
 			<p align="left">&nbsp;</p>

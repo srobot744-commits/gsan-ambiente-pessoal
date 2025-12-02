@@ -42,7 +42,7 @@ function abrirPopupDetalhe(tipo){
 	<%@ include file="/jsp/util/cabecalho.jsp"%>
 	<%@ include file="/jsp/util/menu.jsp"%>
 
-	<table width="770" border="0" cellspacing="5" cellpadding="0">
+	<table width="1024" border="0" cellspacing="5" cellpadding="0">
 		<tr>
 			<td width="135" valign="top" class="leftcoltext">
 
@@ -79,7 +79,7 @@ function abrirPopupDetalhe(tipo){
 			</td>
 
 
-			<td width="625" valign="top" class="centercoltext"><!--In&iacute;cio Tabela Reference a P&aacute;gina&ccedil;&atilde;o da Tela de Processo-->
+			<td width="824" valign="top" class="centercoltext"><!--In&iacute;cio Tabela Reference a P&aacute;gina&ccedil;&atilde;o da Tela de Processo-->
 			<table>
 				<tr>
 					<td></td>

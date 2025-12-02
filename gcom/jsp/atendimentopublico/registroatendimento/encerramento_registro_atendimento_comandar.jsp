@@ -220,10 +220,10 @@ function validarForm(form){
 	<input type="hidden" name="tipoPesquisa" />
 	<input type="hidden" name="dataAtual" value="${requestScope.dataAtual}"/>
 
-	<table width="770" border="0" cellspacing="5" cellpadding="0">
+	<table width="1024" border="0" cellspacing="5" cellpadding="0">
 
 		<tr>
-			<td width="150" valign="top" class="leftcoltext">
+			<td width="200" valign="top" class="leftcoltext">
 				<div align="center">
 					<p align="left">&nbsp;</p>
 					<p align="left">&nbsp;</p>
@@ -255,7 +255,7 @@ function validarForm(form){
 					<p align="left">&nbsp;</p>
 				</div>
 			</td>
-			<td width="625" valign="top" class="centercoltext">
+			<td width="824" valign="top" class="centercoltext">
 			<table height="100%">
 				<tr>
 					<td></td>

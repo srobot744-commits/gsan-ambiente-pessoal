@@ -90,7 +90,7 @@ function limparForm(form) {
 	<%@ include file="/jsp/util/cabecalho.jsp"%>
 	<%@ include file="/jsp/util/menu.jsp"%>
 
-	<table width="770" border="0" cellspacing="5" cellpadding="0">
+	<table width="1024" border="0" cellspacing="5" cellpadding="0">
 		<tr>
 			<td width="130" valign="top" class="leftcoltext">
 			<div align="center">
@@ -154,7 +154,7 @@ function limparForm(form) {
 					<td align="right"><html:checkbox property="atualizar" value="1"
 						onclick="javascript:verificarValorAtualizar()" /><strong>Atualizar</strong></td>
 				<tr>
-					<td width="150"><strong>Banco:</strong></td>
+					<td width="200"><strong>Banco:</strong></td>
 					<td colspan="2" align="left"><html:select property="bancoID"
 						tabindex="1">
 						<html:option value="-1">&nbsp;</html:option>
@@ -164,14 +164,14 @@ function limparForm(form) {
 				</tr>
 
 				<tr>
-					<td width="150"><strong>Código da Agência:</strong></td>
+					<td width="200"><strong>Código da Agência:</strong></td>
 					<td colspan="2"><html:text property="codigo" size="5" maxlength="5"
 						tabindex="2" /></td>
 				</tr>
 
 
 				<tr>
-					<td width="150"><strong>Nome da Agência:</strong></td>
+					<td width="200"><strong>Nome da Agência:</strong></td>
 					<td colspan="2"><html:text property="nome" size="50" maxlength="40"
 						tabindex="3" /></td>
 				</tr>
@@ -190,7 +190,7 @@ function limparForm(form) {
 					<td></td>
 				</tr>
 				<tr>
-					<td width="150"><strong> <font color="#FF0000"> <input type="button"
+					<td width="200"><strong> <font color="#FF0000"> <input type="button"
 						name="Submit22" class="bottonRightCol" value="Limpar"
 						onClick="javascript:window.location.href='/gsan/exibirFiltrarAgenciaBancariaAction.do?menu=sim'"><!-- <input type="button"
 								name="Submit23" class="bottonRightCol" value="Cancelar"

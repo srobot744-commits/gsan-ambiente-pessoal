@@ -67,13 +67,13 @@
 			
 						<table width="100%" border="0">
 						<tr> 
-							<td height="10" width="150"><strong>Matrícula:</strong></td>
+							<td height="10" width="200"><strong>Matrícula:</strong></td>
 							<td>
 								<html:text property="matriculaImovel" size="25" readonly="true" style="background-color:#EFEFEF; border:0"/>
 							</td>
 						</tr>
 						<tr> 
-							<td height="10" width="150"><strong>Inscrição:</strong></td>
+							<td height="10" width="200"><strong>Inscrição:</strong></td>
 							<td>
 								<html:text property="inscricaoImovel" size="25" readonly="true" style="background-color:#EFEFEF; border:0"/>
 							</td>
@@ -168,7 +168,7 @@
 			
 						<table width="100%" border="0">
 						<tr> 
-							<td height="10" width="150"><strong>Forma:</strong></td>
+							<td height="10" width="200"><strong>Forma:</strong></td>
 					        <td>
 								<html:text property="formaEmissao" size="25" readonly="true" style="background-color:#EFEFEF; border:0;"/>
 					        </td>
@@ -176,7 +176,7 @@
 						</tr>
 						
 						<tr>
-							<td height="10" width="150"><strong>Data/Hora:</strong></td>
+							<td height="10" width="200"><strong>Data/Hora:</strong></td>
 					        <td>
 								<html:text property="dataHoraEmissao" size="25" readonly="true" style="background-color:#EFEFEF; border:0;"/>
 					        </td>
@@ -184,7 +184,7 @@
 						
 						<logic:notEqual value="" name="DocumentoCobrancaItemActionForm" property="nomeUsuario">
 							<tr>
-								<td height="10" width="150"><strong>Usu&aacute;rio:</strong></td>
+								<td height="10" width="200"><strong>Usu&aacute;rio:</strong></td>
 						        <td>
 						        	
 									<html:text property="nomeUsuario" size="50" readonly="true" style="background-color:#EFEFEF; border:0;"/>

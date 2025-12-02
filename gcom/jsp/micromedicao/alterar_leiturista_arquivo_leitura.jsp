@@ -105,7 +105,7 @@
 	<%@ include file="/jsp/util/cabecalho.jsp"%>
 	<%@ include file="/jsp/util/menu.jsp"%>
 
-	<table width="770" border="0" cellspacing="5" cellpadding="0">
+	<table width="1024" border="0" cellspacing="5" cellpadding="0">
 		<tr>
 			<td width="130" valign="top" class="leftcoltext">
 			<div align="center">
@@ -187,7 +187,7 @@
 						</tr>
 
 						<tr bgcolor="#cbe5fe">
-							<td width="150"><strong>Empresa:<font color="#FF0000">*</font></strong></td>
+							<td width="200"><strong>Empresa:<font color="#FF0000">*</font></strong></td>
 							<td colspan="2" align="left"><logic:equal name="permissao"
 								value="1">
 								<html:select property="empresaID" tabindex="1">
@@ -205,7 +205,7 @@
 						</tr>
 
 						<tr bgcolor="#cbe5fe">
-							<td width="150"><strong>Grupo de Faturamento:<font
+							<td width="200"><strong>Grupo de Faturamento:<font
 								color="#FF0000">*</font></strong></td>
 							<td colspan="2" align="left"><html:select
 								property="grupoFaturamentoID" tabindex="2">
@@ -225,7 +225,7 @@
 						</tr>
 						<tr>
 						<tr bgcolor="#cbe5fe">
-							<td width="150"></td>
+							<td width="200"></td>
 							<td align="right"><gsan:controleAcessoBotao value="Consultar"
 								name="Button" tabindex="6"
 								url="alterarLeituristaArquivoLeituraAction.do"
@@ -240,7 +240,7 @@
 				<tr>
 					<logic:present name="colecaoArquivo">
 						<tr bgcolor="#cbe5fe">
-							<td width="150"><strong>Arquivo Texto Roteiro Empresa:<font
+							<td width="200"><strong>Arquivo Texto Roteiro Empresa:<font
 								color="#FF0000">*</font></strong></td>
 							<td colspan="2" align="left"><html:select property="arquivoID"
 								tabindex="4"
@@ -254,7 +254,7 @@
 						<logic:present name="colecaoArquivoDividido">
 
 							<tr bgcolor="#cbe5fe">
-								<td width="150"><strong>Arquivo Texto Dividido Roteiro Empresa:<font
+								<td width="200"><strong>Arquivo Texto Dividido Roteiro Empresa:<font
 									color="#FF0000">*</font></strong></td>
 								<td colspan="2" align="left"><html:select
 									property="arquivoDivididoID" tabindex="4"

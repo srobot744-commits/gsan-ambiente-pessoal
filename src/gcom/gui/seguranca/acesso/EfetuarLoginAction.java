@@ -133,21 +133,31 @@ public class EfetuarLoginAction extends GcomAction {
 						 * que a permitida se for bloqueia a senha do usuário e indica o erro na página
 						 * de login
 						 */
-						if (loginUsuarioSessao.equals(login)) {
-							numeroTentativas = numeroTentativas + 1;
-							sessao.setAttribute("numeroTentativas", numeroTentativas);
+                                                  // Garante que as variÃ¡veis nÃ£o estejam nulas
+                                                  if (numeroTentativas == null) {
+                                                          numeroTentativas = Integer.valueOf(0);
+                                                  }
+                                                  if (numeroTentativasPermitidas == null) {
+						        // Valor padrÃ£o caso o parÃ¢metro de sistema nÃ£o esteja configurado
+						        numeroTentativasPermitidas = Short.valueOf((short) 3);
+                                                  }
 
-							// [FS0005] - Verificar número de tentativas de acesso
-							if (numeroTentativas.intValue() > numeroTentativasPermitidas.intValue()) {
-								this.bloquearSenha(login);
-								this.reportarErros(httpServletRequest, "atencao.usuario.senha.bloqueada");
-								retorno = actionMapping.findForward("telaLogin");
-							}
-						} else {
-							// Zera o nº de tentativas de acesso e joga o login do usuário na sessão
-							numeroTentativas = 0;
-							sessao.setAttribute("loginUsuarioSessao", login);
-						}
+                                                  if (loginUsuarioSessao != null && loginUsuarioSessao.equals(login)) {
+                                                          numeroTentativas = Integer.valueOf(numeroTentativas.intValue() + 1);
+                                                          sessao.setAttribute("numeroTentativas", numeroTentativas);
+
+                                                          // [FS0005] - Verificar nÃºmero de tentativas de acesso
+                                                          if (numeroTentativas.intValue() > numeroTentativasPermitidas.intValue()) {
+                                                                  this.bloquearSenha(login);
+                                                                  this.reportarErros(httpServletRequest, "atencao.usuario.senha.bloqueada");
+                                                                  retorno = actionMapping.findForward("telaLogin");
+                                                          }
+                                                  } else {
+                                                          // Zera o nÂº de tentativas de acesso e joga o login do usuÃ¡rio na sessÃ£o
+                                                          numeroTentativas = Integer.valueOf(0);
+                                                          sessao.setAttribute("numeroTentativas", numeroTentativas);
+                                                          sessao.setAttribute("loginUsuarioSessao", login);
+                                                  }
 
 					} else {
 						// [FS0002] - Verificar situação do usuário

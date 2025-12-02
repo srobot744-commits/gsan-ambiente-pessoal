@@ -104,10 +104,10 @@ function limparImovelTecla() {
 	<%@ include file="/jsp/util/cabecalho.jsp"%>
 	<%@ include file="/jsp/util/menu.jsp"%>
 
-	<table width="770" border="0" cellspacing="5" cellpadding="0">
+	<table width="1024" border="0" cellspacing="5" cellpadding="0">
 
 		<tr>
-			<td width="150" valign="top" class="leftcoltext">
+			<td width="200" valign="top" class="leftcoltext">
 			<div align="center">
 			<p align="left">&nbsp;</p>
 			<p align="left">&nbsp;</p>
@@ -139,7 +139,7 @@ function limparImovelTecla() {
 			<p align="left">&nbsp;</p>
 			</div>
 			</td>
-			<td width="625" valign="top" class="centercoltext">
+			<td width="824" valign="top" class="centercoltext">
 			<table height="100%">
 				<tr>
 					<td></td>
@@ -171,7 +171,7 @@ function limparImovelTecla() {
 					<td colspan="3">Para atualizar o contrato de demanda, informe os dados abaixo:</td>
 				</tr>
 				<tr>
-					<td width="150"><strong>Número do Contrato:<font
+					<td width="200"><strong>Número do Contrato:<font
 						color="#FF0000">*</font></strong></td>
 					<td colspan="2"><strong> 
 				       <html:text property="numeroContrato" size="11"

@@ -97,7 +97,7 @@ function checkAtualizar(valor) {
 	<%@ include file="/jsp/util/cabecalho.jsp"%>
 	<%@ include file="/jsp/util/menu.jsp"%>
 
-	<table width="770" border="0" cellspacing="5" cellpadding="0">
+	<table width="1024" border="0" cellspacing="5" cellpadding="0">
 		<tr>
 			<td width="130" valign="top" class="leftcoltext">
 			<div align="center">
@@ -160,26 +160,26 @@ function checkAtualizar(valor) {
 					OS_Referida, informe os dados abaixo:</td>
 					<td><html:checkbox property="atualizar" value="1" onclick="javascript:verificarValorAtualizar()"/><strong>Atualizar</strong></td>
 				<tr>
-					<td width="150"><strong>Código do Tipo de Retorno:<font
+					<td width="200"><strong>Código do Tipo de Retorno:<font
 						color="#FF0000"></font></strong></td>
 
 					<td colspan="2"><strong> <html:text property="codigoTipoRetorno" size="4"
 						maxlength="4" /> </strong></td>
 				</tr>
 				<tr>
-					<td width="150"><strong>Descri&ccedil;&atilde;o:<font
+					<td width="200"><strong>Descri&ccedil;&atilde;o:<font
 						color="#FF0000"></font></strong></td>
 
 					<td colspan="2"><strong> <html:text property="descricao" size="50"
 						maxlength="50" /> </strong></td>
 				</tr>
 				<tr>
-					<td width="150"><strong>Abreviatura:<font color="#FF0000"></font></strong></td>
+					<td width="200"><strong>Abreviatura:<font color="#FF0000"></font></strong></td>
 					<td colspan="2"><strong> <html:text property="abreviatura" size="5"
 						maxlength="5" /> </strong></td>
 				</tr>
 				<tr>
-					<td width="150"><strong>Referência do Tipo de Serviço<font color="#000000"></font>:</strong></td>
+					<td width="200"><strong>Referência do Tipo de Serviço<font color="#000000"></font>:</strong></td>
 					<td colspan="2"><html:select property="servicoTipoReferencia">
 
 						<html:option
@@ -189,14 +189,14 @@ function checkAtualizar(valor) {
 					</html:select></td>
 				</tr>
 				<tr>
-					<td width="150"><strong>Indicador de Deferimento:</strong></td>
+					<td width="200"><strong>Indicador de Deferimento:</strong></td>
 					<td colspan="2"><strong> <html:radio property="deferimento"
 						value="1" /> <strong>Deferido&nbsp;&nbsp;<html:radio
 						property="deferimento" value="2" /> Indeferido&nbsp;<html:radio
 						property="deferimento" value="" /> Todos</strong> </strong></td>
 				</tr>
 				<tr>
-					<td width="150"><strong>Indicador de Troca de Serviço:</strong></td>
+					<td width="200"><strong>Indicador de Troca de Serviço:</strong></td>
 					<td colspan="2"><strong> <html:radio property="trocaServico"
 						value="1" /> <strong>Sim&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 					<html:radio property="trocaServico" value="2" />
@@ -204,14 +204,14 @@ function checkAtualizar(valor) {
 						property="trocaServico" value="" /> Todos</strong> </strong></td>
 				</tr>
 				<tr>
-					<td width="150"><strong>Código da Situação:</strong></td>
+					<td width="200"><strong>Código da Situação:</strong></td>
 					<td colspan="2"><strong> <html:radio property="situacao" value="1" />
 					<strong>Pendente<html:radio property="situacao" value="2" />
 					Encerrada<html:radio property="situacao" value="" /> Todos</strong>
 					</strong></td>
 				</tr>
 				<tr>
-					<td width="150"><strong>Motivo de Encerramento do Atendimento<font
+					<td width="200"><strong>Motivo de Encerramento do Atendimento<font
 						color="#000000"></font>:</strong></td>
 					<td colspan="2"><html:select property="atendimentoMotivoEncerramento">
 
@@ -222,7 +222,7 @@ function checkAtualizar(valor) {
 					</html:select></td>
 				</tr>
 				<tr>
-					<td width="150"><strong>Indicador de Uso:</strong></td>
+					<td width="200"><strong>Indicador de Uso:</strong></td>
 					<td colspan="2"><strong> <html:radio property="indicadorUso"
 						value="1" /> <strong>Ativos&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <html:radio
 						property="indicadorUso" value="2" />

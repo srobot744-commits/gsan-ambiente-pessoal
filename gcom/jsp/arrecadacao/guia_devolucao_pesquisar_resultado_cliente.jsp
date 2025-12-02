@@ -57,7 +57,7 @@
 						<td width="100%" align="center" colspan="7">
 							<table width="100%" border="0">
 								<tr>
-									<td height="10" width="150"><strong>Código do Cliente:</strong></td>
+									<td height="10" width="200"><strong>Código do Cliente:</strong></td>
 									<td><html:text name="PesquisarGuiaDevolucaoActionForm"
 										property="codigoCliente" size="25" readonly="true"
 										style="background-color:#EFEFEF; border:0" /></td>

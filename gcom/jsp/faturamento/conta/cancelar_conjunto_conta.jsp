@@ -70,7 +70,7 @@ function validarForm(form){
         </table>
          <table width="100%" border="0">
         <tr>
-          <td width="150" height="20"><strong>Motivo do Cancelamento:<font
+          <td width="200" height="20"><strong>Motivo do Cancelamento:<font
 						color="#FF0000">*</font></strong></td>
           <td colspan="3">
           

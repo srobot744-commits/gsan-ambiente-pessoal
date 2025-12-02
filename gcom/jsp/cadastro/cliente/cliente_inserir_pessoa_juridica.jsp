@@ -94,7 +94,7 @@ function limparClienteResponsavel() {
 	</logic:equal>
 	
 	<input type="hidden" name="numeroPagina" value="2" />
-	<table width="770" border="0" cellspacing="5" cellpadding="0">
+	<table width="1024" border="0" cellspacing="5" cellpadding="0">
 		<tr>
 			<!-- CASO POPUP: Retira a coluna de Informacoes do Usuario -->
 			<logic:equal name="POPUP" value="false" scope="session">
@@ -127,7 +127,7 @@ function limparClienteResponsavel() {
 			</div>
 			</td>
 			</logic:equal>
-			<td width="625" valign="top" class="centercoltext">
+			<td width="824" valign="top" class="centercoltext">
 			<table height="100%">
 				<tr>
 					<td></td>

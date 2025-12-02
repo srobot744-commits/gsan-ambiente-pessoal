@@ -92,7 +92,7 @@
 <html:form action="/pesquisarEquipeAction" method="post" onsubmit="window.focus();return validatePesquisarEquipeActionForm(this);javascript:setarFoco('${requestScope.nomeCampo}');">
 	<table width="635" border="0" cellspacing="5" cellpadding="0">
 		<tr>
-			<td width="625" valign="top" class="centercoltext">
+			<td width="824" valign="top" class="centercoltext">
 				<table height="100%">
 					<tr>
 						<td></td>

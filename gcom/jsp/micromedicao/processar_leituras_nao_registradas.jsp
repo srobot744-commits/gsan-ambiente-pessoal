@@ -69,7 +69,7 @@ function mudandoGrupo(grupo){
 	<%@ include file="/jsp/util/cabecalho.jsp"%>
 	<%@ include file="/jsp/util/menu.jsp"%>
 	
-	<table width="770" border="0" cellspacing="5" cellpadding="0">
+	<table width="1024" border="0" cellspacing="5" cellpadding="0">
 		<tr>
 			<td width="130" valign="top" class="leftcoltext">
 			<div align="center">
@@ -132,7 +132,7 @@ function mudandoGrupo(grupo){
 				
 							
 				<tr>
-					<td width="150"><strong>Grupo de Faturamento:</strong></td>
+					<td width="200"><strong>Grupo de Faturamento:</strong></td>
 					<td colspan="2" align="left">
 						<html:select property="faturamentoGrupoID" tabindex="2" onchange="javascript:mudandoGrupo(this);">
 						<html:option value="-1">&nbsp;</html:option>

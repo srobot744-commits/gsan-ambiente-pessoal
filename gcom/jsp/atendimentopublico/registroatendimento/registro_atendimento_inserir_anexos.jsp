@@ -99,7 +99,7 @@ function atualizarObservacao(identificacao){
 	<%@ include file="/jsp/util/menu.jsp" %>
 </logic:notPresent>
 
-<table width="770" border="0" cellspacing="5" cellpadding="0">
+<table width="1024" border="0" cellspacing="5" cellpadding="0">
   <tr>
     <logic:notPresent scope="session" name="origemGIS">
   		<td width="140" valign="top" class="leftcoltext">
@@ -197,7 +197,7 @@ function atualizarObservacao(identificacao){
       
 
 		<tr>
-			<td colspan="2" height="5" width="625"></td>
+			<td colspan="2" height="5" width="824"></td>
 		</tr>
 		<tr>
 			<td colspan="2">

@@ -74,7 +74,7 @@ function validarForm(form){
         
       <table width="100%" border="0">
         <tr>
-          <td width="150" height="20"><strong>Motivo da Revisão:<font color="#FF0000">*</font></strong></td>
+          <td width="200" height="20"><strong>Motivo da Revisão:<font color="#FF0000">*</font></strong></td>
           <td colspan="3">
           
           	<html:select property="motivoRevisaoContaID">

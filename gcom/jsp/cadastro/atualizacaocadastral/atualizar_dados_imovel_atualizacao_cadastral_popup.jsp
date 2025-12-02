@@ -273,8 +273,8 @@
 
 									<table width="100%" bgcolor="#90c7fc" border=0>
 										<tr bordercolor="#90c7fc" bgcolor="#90c7fc">
-											<td width="150"><strong>Tabela</strong></td>
-											<td width="150"><strong>Campo</strong></td>
+											<td width="200"><strong>Tabela</strong></td>
+											<td width="200"><strong>Campo</strong></td>
     										<td width="200" align="center"><strong>Anterior</strong></td>
     										<td width="200" align="center"><strong>Pré-Aprovado</strong></td>
     										<logic:equal name="exibirColunaFiscalizado" value="true" scope="session">
@@ -305,10 +305,10 @@
     											<tr bgcolor="#cbe5fe">
     										<%}%>
                                         </logic:notEqual>
-    										<td width="150">
+    										<td width="200">
     											<bean:write name="item" property="descricaoTabela" />
     										</td>
-    										<td width="150">
+    										<td width="200">
     											<bean:write name="item" property="descricaoColuna" />
     										</td>
     										<td width="200">

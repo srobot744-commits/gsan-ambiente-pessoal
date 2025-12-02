@@ -488,7 +488,7 @@ onload="setarFoco('${requestScope.nomeCampo}');desabilitaCampos('${requestScope.
 	<%@ include file="/jsp/util/cabecalho.jsp"%>
 	<%@ include file="/jsp/util/menu.jsp"%>
 
-	<table width="770" border="0" cellspacing="5" cellpadding="0">
+	<table width="1024" border="0" cellspacing="5" cellpadding="0">
 		<tr>
 			<td width="130" valign="top" class="leftcoltext">
 			<div align="center">
@@ -842,7 +842,7 @@ onload="setarFoco('${requestScope.nomeCampo}');desabilitaCampos('${requestScope.
 										<logic:equal name="exibirAtualizarSituacaoLigacaoAguaEsgoto" value="1">
 											<table border="0" width="100%">
 												<tr>
-													<td width="150"><strong>Atualizar Situação da Ligação de Água/Esgoto:</strong></td>
+													<td width="200"><strong>Atualizar Situação da Ligação de Água/Esgoto:</strong></td>
 													<td><html:radio property="indicadorAtualizarSituacaoLigacaoAguaEsgoto" value="1" />	<strong> Sim </strong> 
 														<html:radio	property="indicadorAtualizarSituacaoLigacaoAguaEsgoto" value="2" /> <strong> Não</strong>
 													</td>
@@ -860,7 +860,7 @@ onload="setarFoco('${requestScope.nomeCampo}');desabilitaCampos('${requestScope.
 									<logic:equal name="habilitaTipoMedicao" value="1">
 										<table border="0" width="100%">
 											<tr>
-												<td width="150"><strong>Tipo de Medição:</strong></td>
+												<td width="200"><strong>Tipo de Medição:</strong></td>
 												<td>
 													<html:radio property="indicadorTipoMedicao" value="1" /><strong> Ligação de Agua </strong> 
 													<html:radio	property="indicadorTipoMedicao" value="2" /> <strong> Poço</strong>
@@ -929,7 +929,7 @@ onload="setarFoco('${requestScope.nomeCampo}');desabilitaCampos('${requestScope.
 									     	<logic:equal name="indicarGeracaoDebitoAutoInfracao" value="1">
 									 			<table border="0" width="100%">
 													<tr>
-														<td width="150"><strong> Geração do Débito:<font
+														<td width="200"><strong> Geração do Débito:<font
 															color="#FF0000">*</font></strong></td>
 														<td><html:radio property="indicadorGeracaoDebito" value="1" />
 														<strong> Sim </strong> <html:radio
@@ -941,7 +941,7 @@ onload="setarFoco('${requestScope.nomeCampo}');desabilitaCampos('${requestScope.
 											<logic:equal name="indicarGeracaoDebitoAutoInfracao" value="2">
 									 			<table border="0" width="100%">
 													<tr>
-														<td width="150"><strong> Geração do Débito:<font
+														<td width="200"><strong> Geração do Débito:<font
 															color="#FF0000">*</font></strong></td>
 														<td><html:radio property="indicadorGeracaoDebito" value="1" disabled="true" />
 														<strong> Sim </strong> <html:radio
@@ -954,7 +954,7 @@ onload="setarFoco('${requestScope.nomeCampo}');desabilitaCampos('${requestScope.
 												<logic:present name="disponibilizarNaoGeracaoDebito" scope="request">
 												<table border="0" width="100%">
 													<tr>
-														<td width="150"><strong> Geração do Débito:<font
+														<td width="200"><strong> Geração do Débito:<font
 															color="#FF0000">*</font></strong></td>
 														<td><html:radio property="indicadorGeracaoDebito" value="1"/>
 														<strong> Sim </strong> <html:radio
@@ -969,7 +969,7 @@ onload="setarFoco('${requestScope.nomeCampo}');desabilitaCampos('${requestScope.
 												<logic:present name="disponibilizarNaoGeracaoDebito" scope="request">	
 													<table border="0" width="100%">
 														<tr>
-															<td width="150"><strong> Geração do Débito:<font
+															<td width="200"><strong> Geração do Débito:<font
 																color="#FF0000">*</font></strong></td>
 															<td><html:radio property="indicadorGeracaoDebito" value="1" />
 															<strong> Sim </strong> <html:radio

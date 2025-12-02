@@ -237,7 +237,7 @@
 	<%@ include file="/jsp/util/cabecalho.jsp"%>
 	<%@ include file="/jsp/util/menu.jsp"%>
 
-	<table width="770" border="0" cellspacing="5" cellpadding="0">
+	<table width="1024" border="0" cellspacing="5" cellpadding="0">
 		<tr>
 			<td width="130" valign="top" class="leftcoltext">
 			<div align="center">
@@ -302,7 +302,7 @@
 				</tr>
 				
 				<tr>
-					<td width="150"><strong>Empresa:<font color="#FF0000">*</font></strong></td>
+					<td width="200"><strong>Empresa:<font color="#FF0000">*</font></strong></td>
 					<td colspan="2" align="left"><logic:equal name="permissao"
 						value="1">
 						<html:select property="idEmpresa" tabindex="3"
@@ -321,7 +321,7 @@
 				</tr>
 				
 				<tr>
-					<td width="150"><strong>Agente Cadastral:</strong></td>
+					<td width="200"><strong>Agente Cadastral:</strong></td>
 					<td colspan="2" align="left"><html:select property="leituristaID"
 						tabindex="4">
 						<html:option value="-1">&nbsp;</html:option>
@@ -331,7 +331,7 @@
 				</tr>
 
 				<tr>
-					<td width="150"><strong>Localidade:</strong></td>
+					<td width="200"><strong>Localidade:</strong></td>
 					<td colspan="2">
 						<html:text tabindex="8" maxlength="3" property="idLocalidade" size="5"
 							onkeypress="form.target=''; validaEnter(event, 'exibirConsultarArquivoTextoAtualizacaoCadastralAction.do?objetoConsulta=1', 'idLocalidade'); limparSetorComercial();"
@@ -372,7 +372,7 @@
 				</tr>
 				
 				<tr>
-					<td width="150"><strong>Setor Comercial:</strong></td>
+					<td width="200"><strong>Setor Comercial:</strong></td>
 					<td colspan="2">
 						<html:text tabindex="8" maxlength="3" property="codigoSetorComercial" size="5"
 							onkeypress="form.target=''; validaEnter(event, 'exibirConsultarArquivoTextoAtualizacaoCadastralAction.do?objetoConsulta=2', 'codigoSetorComercial');"
@@ -413,7 +413,7 @@
 				</tr>			
 
 				<tr>
-					<td width="150"><strong>Situação Transmissão:</strong></td>
+					<td width="200"><strong>Situação Transmissão:</strong></td>
 					<td colspan="2">
 					    <strong><html:radio property="idSituacaoTransmissao" value="2" />Liberado</strong> 
 					    <strong><html:radio property="idSituacaoTransmissao" value="3" />Em Campo</strong> 
@@ -423,7 +423,7 @@
 				</tr>
 				
 				<tr>
-					<td width="150"><strong>Exibição:</strong></td>
+					<td width="200"><strong>Exibição:</strong></td>
 					<td colspan="2">
     					<strong><html:radio property="exibicao" value="" />Todos</strong>
 					    <strong><html:radio property="exibicao" value="1" />Rotas com Imóveis em Revisão</strong> 

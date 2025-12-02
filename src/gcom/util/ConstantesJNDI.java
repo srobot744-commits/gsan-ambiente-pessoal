@@ -5,7 +5,7 @@ import java.util.Properties;
 
 public class ConstantesJNDI {
 
-	public final static String NOME_ARQUIVO_PROPRIEDADES = "constantes_jndi.properties";
+	public final static String NOME_ARQUIVO_PROPRIEDADES =   "gcom/properties/constantes_jndi.properties";
 
 	public static String CONTROLADOR_RETIFICAR_CONTA = "";
 	public static String CONTROLADOR_DEBITO_A_COBRAR = "";
@@ -306,6 +306,11 @@ public class ConstantesJNDI {
 			if (stream == null) {
 				stream = gcom.util.ConstantesJNDI.class.getResourceAsStream(NOME_ARQUIVO_PROPRIEDADES);
 			}
+
+		         // Proteção extra: se mesmo assim não achar, lança erro claro
+	            	if (stream == null) {
+	                	throw new SistemaException("Arquivo de propriedades nao encontrado no classpath: "+ NOME_ARQUIVO_PROPRIEDADES);
+	            	}
 
 			propriedades.load(stream);
 

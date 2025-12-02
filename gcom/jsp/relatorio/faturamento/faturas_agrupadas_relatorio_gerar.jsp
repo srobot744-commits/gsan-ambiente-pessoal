@@ -196,9 +196,9 @@
 	<%@ include file="/jsp/util/cabecalho.jsp"%>
 	<%@ include file="/jsp/util/menu.jsp"%>
 
-	<table width="770" border="0" cellspacing="5" cellpadding="0">
+	<table width="1024" border="0" cellspacing="5" cellpadding="0">
 		<tr>
-			<td width="150" valign="top" class="leftcoltext">
+			<td width="200" valign="top" class="leftcoltext">
 			<div align="center">
 			<p align="left">&nbsp;</p>
 			<p align="left">&nbsp;</p>
@@ -230,7 +230,7 @@
 			<p align="left">&nbsp;</p>
 			</div>
 			</td>
-			<td width="625" valign="top" bgcolor="#003399" class="centercoltext">
+			<td width="824" valign="top" bgcolor="#003399" class="centercoltext">
 			<table height="100%">
 
 				<tr>
@@ -253,7 +253,7 @@
 					<td colspan="2">Para gerar o relatório, informe os dados abaixo:</td>
 				</tr>
 				<tr>
-					<td width="150"><strong>Mês/Ano de Faturamento:<font
+					<td width="200"><strong>Mês/Ano de Faturamento:<font
 						color="#FF0000">*</font></strong></td>
 					<td>
 					<html:text property="mesAno" tabindex="1" onkeypress="javascript:mascaraAnoMes(this,event);return isCampoNumerico(event);" size="10" maxlength="7" />

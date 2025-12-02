@@ -1292,25 +1292,48 @@ public class Fachada {
 		}
 	}
 
-	private ControladorAcessoLocal getControladorAcesso() {
-		ControladorAcessoLocalHome localHome = null;
-		ControladorAcessoLocal local = null;
+	    private ControladorAcessoLocal getControladorAcesso() {
 
-		ServiceLocator locator = null;
+	        ServiceLocator locator = null;
 
-		try {
-			locator = ServiceLocator.getInstancia();
+	        try {
+	            // DEBUG: ver o que realmente está em ConstantesJNDI.CONTROLADOR_ACESSO_SEJB
+	            System.out.println(
+	                "DEBUG GSAN getControladorAcesso - JNDI CONTROLADOR_ACESSO_SEJB = ["
+	                + ConstantesJNDI.CONTROLADOR_ACESSO_SEJB + "]"
+	            );
 
-			localHome = (ControladorAcessoLocalHome) locator.getLocalHome(ConstantesJNDI.CONTROLADOR_ACESSO_SEJB);
-			local = localHome.create();
+	            locator = ServiceLocator.getInstancia();
 
-			return local;
-		} catch (CreateException e) {
-			throw new SistemaException(e);
-		} catch (ServiceLocatorException e) {
-			throw new SistemaException(e);
-		}
-	}
+	            // Pode vir tanto um LocalHome quanto diretamente o Local (proxy)
+	            Object ref = locator.getLocalHome(ConstantesJNDI.CONTROLADOR_ACESSO_SEJB);
+
+	            if (ref instanceof ControladorAcessoLocalHome) {
+	                // Cenário antigo: Home + create()
+	                ControladorAcessoLocalHome localHome = (ControladorAcessoLocalHome) ref;
+	                return localHome.create();
+
+	            } else if (ref instanceof ControladorAcessoLocal) {
+	                // Cenário atual: JBoss retorna diretamente o Local (com.sun.proxy.$Proxy...)
+	                return (ControladorAcessoLocal) ref;
+
+	            } else {
+	                // Ajuda no diagnóstico se vier algo totalmente inesperado
+	                throw new SistemaException(
+	                    "Referência JNDI inesperada para CONTROLADOR_ACESSO_SEJB: "
+	                    + (ref != null ? ref.getClass().getName() : "null"));
+	            }
+
+	        } catch (CreateException e) {
+	            e.printStackTrace();
+	            System.out.println("DEBUG GSAN getControladorAcesso - CreateException: " + e.getMessage());
+	            throw new SistemaException(e);
+	        } catch (ServiceLocatorException e) {
+	            e.printStackTrace();
+	            System.out.println("DEBUG GSAN getControladorAcesso - ServiceLocatorException: " + e.getMessage());
+	            throw new SistemaException(e);
+	        }
+	    }
 
 	private ControladorPermissaoEspecialLocal getControladorPermissaoEspecial() {
 		ControladorPermissaoEspecialLocalHome localHome = null;

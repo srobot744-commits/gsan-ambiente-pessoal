@@ -86,7 +86,7 @@
 	<%@ include file="/jsp/util/menu.jsp"%>
 
 
-	<table width="770" border="0" cellspacing="5" cellpadding="0">
+	<table width="1024" border="0" cellspacing="5" cellpadding="0">
 		<tr>
 			<td width="115" valign="top" class="leftcoltext">
 			<div align="center">
@@ -144,7 +144,7 @@
 						</tr>
 						
 						<tr>
-							<td width="150"><strong>Mês/Ano de Refência:</strong></td>
+							<td width="200"><strong>Mês/Ano de Refência:</strong></td>
 							<td colspan="2"><html:text onkeypress="return verificaData(event);" property="mesAno" size="7"  maxlength="7" /> mm/aaaa</td>
 						</tr>
 						<tr>

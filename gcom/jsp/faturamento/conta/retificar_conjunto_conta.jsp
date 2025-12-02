@@ -357,7 +357,7 @@ function checkDataVencimento(){
         </table>
       <table width="100%" border="0">
       	<tr> 
-			<td width="150" height="10"><strong>Motivo da Retificação:<font color="#FF0000">*</font></strong></td>
+			<td width="200" height="10"><strong>Motivo da Retificação:<font color="#FF0000">*</font></strong></td>
 			<td colspan="3">
 				<html:select property="motivoRetificacaoID" style="width: 400px;" tabindex="1">
 					<html:option value="<%= ""+ConstantesSistema.NUMERO_NAO_INFORMADO %>">&nbsp;</html:option>
@@ -456,7 +456,7 @@ function checkDataVencimento(){
 				
 				<table width="100%" border="0">
 				<tr> 
-					<td height="10" width="150">
+					<td height="10" width="200">
 						<strong>Situação de Esgoto:<font
 						color="#FF0000">*</font></strong>
 					</td>

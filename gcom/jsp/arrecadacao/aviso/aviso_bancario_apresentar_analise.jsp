@@ -39,7 +39,7 @@
 <%@ include file="/jsp/util/cabecalho.jsp"%>
 <%@ include file="/jsp/util/menu.jsp" %>
 
-<table width="770" border="0" cellspacing="5" cellpadding="0">
+<table width="1024" border="0" cellspacing="5" cellpadding="0">
   <tr>
     <td width="135" valign="top" class="leftcoltext">
       <div align="center">
@@ -74,7 +74,7 @@
       	</div>
       	</td>
 
-	<td width="625" valign="top" class="centercoltext">
+	<td width="824" valign="top" class="centercoltext">
 
         <table height="100%">
         <tr>
@@ -98,31 +98,31 @@
       
       <table width="100%" border="0">
       <tr>
-		<td height="20" width="150"><strong>Arrecadador:</strong></td>
+		<td height="20" width="200"><strong>Arrecadador:</strong></td>
 		<td width="435" colspan="3">
 			<html:text property="codigoNomeArrecadador" size="40" readonly="true" style="background-color:#EFEFEF; border:0; color: #000000"/>
 		</td>
 	  </tr>
 	  <tr>
-		<td height="20" width="150"><strong>Data de Lançamento:</strong></td>
+		<td height="20" width="200"><strong>Data de Lançamento:</strong></td>
 		<td>
 			<html:text property="dataLancamento" size="11" readonly="true" style="background-color:#EFEFEF; border:0; color: #000000"/>
 		</td>
 	  </tr>
 	  <tr>
-		<td height="20" width="150"><strong>Sequencial:</strong></td>
+		<td height="20" width="200"><strong>Sequencial:</strong></td>
 		<td>
 			<html:text property="sequencial" size="11" readonly="true" style="background-color:#EFEFEF; border:0; color: #000000"/>
 		</td>
 	  </tr>
 	  <tr>
-		<td height="20" width="150"><strong>Nº do Documento:</strong></td>
+		<td height="20" width="200"><strong>Nº do Documento:</strong></td>
 		<td>
 			<html:text property="numeroDocumento" size="11" readonly="true" style="background-color:#EFEFEF; border:0; color: #000000"/>
 		</td>
 	  </tr>
 	  <tr>
-		<td height="20" width="150"><strong>Forma de Arrecadação:</strong></td>
+		<td height="20" width="200"><strong>Forma de Arrecadação:</strong></td>
 		<td width="435" colspan="3">
 			<html:text property="codigoDescricaoArrecadacaoForma" size="40" readonly="true" style="background-color:#EFEFEF; border:0; color: #000000"/>
 		</td>

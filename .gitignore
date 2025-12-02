@@ -28,3 +28,5 @@ src/gcom/properties/token.properties
 scripts/*.sh
 .gradle/
 config/
+*.bkp*
+*.bak*

@@ -93,7 +93,7 @@
 	<%@ include file="/jsp/util/cabecalho.jsp"%>
 	<%@ include file="/jsp/util/menu.jsp"%>
 
-	<table width="770" border="0" cellspacing="5" cellpadding="0">
+	<table width="1024" border="0" cellspacing="5" cellpadding="0">
 		<tr>
 			<td width="115" valign="top" class="leftcoltext">
 			<div align="center">
@@ -145,21 +145,21 @@
 	
 	<table width="100%" border="0">
 		<tr>
-			<td width="150"><strong>Empresa:</strong></td>
+			<td width="200"><strong>Empresa:</strong></td>
 			<td colspan="2" align="left">
 				<html:text property="nomeEmpresa" size="40" disabled="true" />
 			</td>
 		</tr>
 		
 		<tr>
-			<td width="150"><strong>Agente Cadastral:</strong></td>
+			<td width="200"><strong>Agente Cadastral:</strong></td>
 			<td colspan="2" align="left">
 				<html:text property="nomeLeiturista" size="40" disabled="true" />
 			</td>
 		</tr>
 	 
 	 	<tr>
-			<td width="150"><strong>Período de Pré Aprovação:</strong></td>
+			<td width="200"><strong>Período de Pré Aprovação:</strong></td>
 
 			<td colspan="2">
 				<html:text property="periodoInicial" size="11" disabled="true" /> a 
@@ -172,7 +172,7 @@
 		</tr>
 		
 		<tr>
-			<td width="150"><strong>Lote de Fiscalização:</strong></td>
+			<td width="200"><strong>Lote de Fiscalização:</strong></td>
 			<td colspan="2" align="left">
 				<html:text property="lote" size="5" disabled="true" />
 			</td>
@@ -183,22 +183,22 @@
 		</tr>
 		
 		<tr>
-			<td width="150"><strong>Dados da Inscrição Inicial:</strong></td>
+			<td width="200"><strong>Dados da Inscrição Inicial:</strong></td>
 		</tr>
 	 	<tr>
-			<td width="150">Localidade Inicial:</td>
+			<td width="200">Localidade Inicial:</td>
 			<td>
 				<html:text value="${filtroMovimentoAtualizacaoCadastral.nomeLocalidadeInicial}" property="nomeLocalidadeInicial" size="20" disabled="true"/>
 			</td> 
 		</tr>
 		<tr>
-			<td width="150">Setor Comercial Inicial:</td>
+			<td width="200">Setor Comercial Inicial:</td>
 			<td>
 				<html:text value="${filtroMovimentoAtualizacaoCadastral.cdSetorComercialInicial}" property="cdSetorComercialInicial" size="5" disabled="true"/>
 			</td>
 		</tr>
 		<tr>
-			<td width="150">Rota Inicial:</td>
+			<td width="200">Rota Inicial:</td>
 			<td>
 				<html:text value="${filtroMovimentoAtualizacaoCadastral.cdRotaInicial}" property="cdRotaInicial" size="5" disabled="true"/>
 			</td>
@@ -211,17 +211,17 @@
 			<td colspan="3"><strong>Dados da Inscrição Final:</strong></td>
 		</tr>
 		<tr>
-			<td width="150">Localidade Final:</td>
+			<td width="200">Localidade Final:</td>
 			<td>
 			<html:text value="${filtroMovimentoAtualizacaoCadastral.nomeLocalidadeFinal}" property="nomeLocalidadeFinal" size="20" disabled="true"/>
 		<tr>
-			<td width="150">Setor Comercial Final:</td>
+			<td width="200">Setor Comercial Final:</td>
 			<td>
 				<html:text value="${filtroMovimentoAtualizacaoCadastral.cdSetorComercialFinal}" property="cdSetorComercialFinal" size="5" disabled="true"/>
 			</td>
 		</tr>
 		<tr>	
-			<td width="150">Rota Final:</td>
+			<td width="200">Rota Final:</td>
 			<td>
 				<html:text value="${filtroMovimentoAtualizacaoCadastral.cdRotaFinal}" property="cdRotaFinal" size="5" disabled="true"/>
 			</td>

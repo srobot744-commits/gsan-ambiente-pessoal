@@ -132,7 +132,7 @@ function validarForm(form){
         </table>
       <table width="100%" border="0">
         <tr>
-          <td width="150" height="20"><strong>Data de Vencimento<font
+          <td width="200" height="20"><strong>Data de Vencimento<font
 						color="#FF0000">*</font></strong></td>
           <td colspan="3">
           

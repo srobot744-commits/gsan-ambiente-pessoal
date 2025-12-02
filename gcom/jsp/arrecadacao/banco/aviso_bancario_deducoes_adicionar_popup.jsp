@@ -81,7 +81,7 @@
 
 
 
-			<td width="625" valign="top" bgcolor="#003399" class="centercoltext">
+			<td width="824" valign="top" bgcolor="#003399" class="centercoltext">
 			<table height="100%">
 
 				<tr>

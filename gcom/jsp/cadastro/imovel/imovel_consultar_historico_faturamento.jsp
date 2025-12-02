@@ -146,7 +146,7 @@
 			</div>
 			</td>
 
-			<td width="625" valign="top" class="centercoltext">
+			<td width="824" valign="top" class="centercoltext">
 			<p>&nbsp;</p>
 			
 			<table width="100%" border="0" align="center" cellpadding="0"

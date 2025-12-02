@@ -126,7 +126,7 @@
 
 <input type="hidden" id="existeColecaoImovel" value="${requestScope.existeColecaoImovel}"/>
 
-<table width="770" border="0" cellspacing="5" cellpadding="0">
+<table width="1024" border="0" cellspacing="5" cellpadding="0">
   <tr>
     <td width="140" valign="top" class="leftcoltext">
       <div align="center">
@@ -161,7 +161,7 @@
       	</div>
       	</td>
 
-	<td width="625" valign="top" class="centercoltext">
+	<td width="824" valign="top" class="centercoltext">
 
         <table height="100%">
         <tr>

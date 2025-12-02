@@ -122,7 +122,7 @@ function desfazer(){
 	<%@ include file="/jsp/util/cabecalho.jsp"%>
 	<%@ include file="/jsp/util/menu.jsp"%>
 
-	<table width="770" border="0" cellspacing="5" cellpadding="0">
+	<table width="1024" border="0" cellspacing="5" cellpadding="0">
 		<tr>
 			<td width="115" valign="top" class="leftcoltext">
 
@@ -246,7 +246,7 @@ function desfazer(){
 						readonly="true" style="background-color:#EFEFEF; border:0"
 						size="20" maxlength="20" /></div>
 					</td>
-					<td width="150" align="right">
+					<td width="200" align="right">
 					<div align="left"><strong>Sit. da Lig. de Esgoto:</strong></div>
 					</td>
 					<td width="122" align="right"><html:text property="situacaoEsgoto"

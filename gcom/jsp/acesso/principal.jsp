@@ -138,7 +138,7 @@
     <table width="1024" border="0" cellspacing="5" cellpadding="0">
         <tr>
    
-            <td width="200"  valign="top" class="leftcoltext">
+            <td width="240"  valign="top" class="leftcoltext">
                   <%@ include file="/jsp/util/informacoes_usuario.jsp" %>     
             </td>
            

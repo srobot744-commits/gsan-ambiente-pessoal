@@ -39,7 +39,7 @@
 	<%@ include file="/jsp/util/cabecalho.jsp" %>
 	<table width="1024" border="0" cellspacing="5" cellpadding="0">
   		<tr>
-    		<td width="200" valign="top" class="leftcoltext">
+    		<td width="240" valign="top" class="leftcoltext">
       			<div align="center">
         			<form action="efetuarLoginAction.do" 
         		   		method="post" autocomplete="off">
@@ -47,7 +47,7 @@
 	        		<table cellpadding="3" class="tableinlayer">
 	          			<tr>
 			            <td>
-				        	<table width="200" border="0" align="center" >
+				        	<table width="240" border="0" align="center" >
 		                    	<tr>
 		                      		<td width="120">Login</td>
 		                    	</tr>

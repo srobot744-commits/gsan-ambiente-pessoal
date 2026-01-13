@@ -15,7 +15,7 @@
 					PMSS
 					</logic:notPresent>
 				</td>
-          		<td align="right">Vers&atilde;o: 1.0.0 (Online) 10/01/2026 - 19:51:08 </td>
+          		<td align="right">Vers&atilde;o: 1.0.0 (Online) 13/01/2026 - 24:26:45 </td>
         	</tr>
       	</table>
 		</td>

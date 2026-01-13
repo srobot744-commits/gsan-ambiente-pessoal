@@ -4716,7 +4716,6 @@
 	<!--******************* DEFINIÇAO DO STRUTS VALIDATOR *******************-->
 	<plug-in className="org.apache.struts.validator.ValidatorPlugIn">
 		<set-property
-			value="WEB-INF/validator-rules.xml, WEB-INF/validator.xml, WEB-INF/validator-compesa.xml"
-			property="pathnames" />
-	</plug-in>
+			value="/WEB-INF/validator-rules.xml, /WEB-INF/validator.xml, /WEB-INF/validator-compesa.xml"
+			property="pathnames" /></plug-in>
 </struts-config>

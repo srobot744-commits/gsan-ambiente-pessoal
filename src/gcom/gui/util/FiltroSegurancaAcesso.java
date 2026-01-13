@@ -162,7 +162,10 @@ public class FiltroSegurancaAcesso extends HttpServlet implements Filter {
 			//Verifica se a url requisitada pelo usuário é uma operação ou uma funcionalidade
 			String tipoURL = fachada.verificarTipoURL(enderecoURL);
 
-			setCaminhoMenu(sessao, idFuncionalidade, enderecoURL, tipoURL);
+			if (!"POST".equalsIgnoreCase(requestPagina.getMethod())) {
+			    setCaminhoMenu(sessao, idFuncionalidade, enderecoURL, tipoURL);
+			}
+
 
 			//Caso o usuário esteja logado e não tenha clicado no link de logoff
 			if(usuarioLogado != null  &&

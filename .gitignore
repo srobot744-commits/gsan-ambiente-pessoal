@@ -36,3 +36,9 @@ config/
 *.bak
 *.backup
 *~
+
+# backups locais
+*.bak
+*.backup
+*.fixbak-*
+*~

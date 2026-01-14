@@ -30,3 +30,9 @@ scripts/*.sh
 config/
 *.bkp*
 *.bak*
+
+# backups locais
+*.fixbak-*
+*.bak
+*.backup
+*~

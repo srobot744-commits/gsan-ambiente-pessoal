@@ -1,0 +1,12 @@
+<%@ taglib uri="http://struts.apache.org/tags-bean" prefix="bean" %>
+
+<div id="menuLeft"
+     style="height: calc(100vh - 230px); overflow-y: auto; overflow-x: hidden; padding-right: 6px;">
+  <table border="0" class="layerMenu" width="100%">
+    <tr>
+      <td>
+        <bean:write name="menuGCOM" scope="session" filter="false"/>
+      </td>
+    </tr>
+  </table>
+</div>

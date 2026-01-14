@@ -496,8 +496,9 @@ public class RepositorioUtilHBM implements IRepositorioUtil {
 			filtro.limparCamposOrderBy();
 			filtro.limparColecaoCaminhosParaCarregamentoEntidades();
 
-			retorno = (Integer) GeradorHQLCondicional.gerarCondicionalQuery(filtro, "objeto",
-					"select count(distinct objeto.id) from " + pacoteNomeObjeto + " as objeto", session).uniqueResult();
+			Number n = (Number) GeradorHQLCondicional.gerarCondicionalQuery(filtro, "objeto",
+							"select count(distinct objeto.id) from " + pacoteNomeObjeto + " as objeto", session).uniqueResult();
+							retorno = (n == null) ? Integer.valueOf(0) : Integer.valueOf(n.intValue());
 
 			filtro.setCampoOrderBy((String[]) camposOrderBy.toArray(new String[camposOrderBy.size()]));
 

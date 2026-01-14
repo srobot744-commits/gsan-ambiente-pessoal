@@ -42,3 +42,12 @@ config/
 *.backup
 *.fixbak-*
 *~
+
+# ---- backups locais / temporários ----
+*.bak
+*.bak.*
+*.fixbak-*
+*~ 
+*.swp
+*.swo
+.DS_Store

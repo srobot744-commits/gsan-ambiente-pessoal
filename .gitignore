@@ -51,3 +51,7 @@ config/
 *.swp
 *.swo
 .DS_Store
+
+# backups/recuperacao git (nao versionar)
+/git-backup-*/
+/git-corrupt-backup/

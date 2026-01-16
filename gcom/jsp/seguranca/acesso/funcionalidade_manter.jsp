@@ -130,13 +130,13 @@ function facilitador(objeto){
 									</td>
 
 									<td width="12%">
-									<div align="center"><strong>Código</strong></div>
+									<div align="center"><strong>Cï¿½digo</strong></div>
 									</td>
 									<td width="29%">
-									<div align="center"><strong>Módulo</strong></div>
+									<div align="center"><strong>Mï¿½dulo</strong></div>
 									</td>
 									<td width="30%">
-									<div align="center"><strong>Descrição da Funcionalidade</strong></div>
+									<div align="center"><strong>Descriï¿½ï¿½o da Funcionalidade</strong></div>
 									</td>
 
 									<td width="31%">
@@ -178,7 +178,7 @@ function facilitador(objeto){
 													href="/gsan/exibirAtualizarFuncionalidadeAction.do?manter=sim"
 													paramId="idFuncionalidade" paramProperty="id"
 													paramName="funcionalidade"
-													title="<%="" + funcionalidade.getDescricao()%>">
+													title="<%= funcionalidade.getDescricao() %>">
 													<bean:write name="funcionalidade" property="descricao" />
 												</html:link></td>
 												<td width="30%" align="center"><logic:equal
@@ -187,7 +187,7 @@ function facilitador(objeto){
 											SIM
 											</logic:equal> <logic:equal name="funcionalidade"
 													property="indicadorPontoEntrada" value="2">
-											NÃO
+											Nï¿½O
 											</logic:equal></td>
 
 

@@ -277,11 +277,38 @@ public class GeradorHQLCondicional {
 
 	    // CORREÇÃO: remover "OR" solto antes do ORDER BY
 	    hql = hql.replace(" OR order by ", " order by ");
-	    hql = hql.replace(" or order by ", " order by ");
-	    hql = hql.replace(" OR  order by ", " order by ");
-	    hql = hql.replace(" or  order by ", " order by ");
+              hql = hql.replace(" or order by ", " order by ");
+              hql = hql.replace(" OR  order by ", " order by ");
+              hql = hql.replace(" or  order by ", " order by ");
 
-	    Query query = session.createQuery(hql);
+              // 2) OR/AND solto antes de fechamento (caso clássico: ... OR])
+              hql = hql.replace(" OR]", "]");
+              hql = hql.replace(" or]", "]");
+              hql = hql.replace(" OR ]", "]");
+              hql = hql.replace(" or ]", "]");
+              hql = hql.replace(" AND]", "]");
+              hql = hql.replace(" and]", "]");
+              hql = hql.replace(" AND ]", "]");
+              hql = hql.replace(" and ]", "]");
+
+              // 3) remover OR null (nunca é válido em HQL)
+              hql = hql.replace(" OR null]", "]");
+              hql = hql.replace(" or null]", "]");
+              hql = hql.replace(" OR null ]", "]");
+              hql = hql.replace(" or null ]", "]");
+              hql = hql.replace(" OR null", "");
+              hql = hql.replace(" or null", "");
+
+              // 4) se ainda sobrar OR/AND no final, cortar
+              hql = hql.trim();
+              while (hql.endsWith(" OR") || hql.endsWith(" or")) {
+                  hql = hql.substring(0, hql.length() - 3).trim();
+              }
+              while (hql.endsWith(" AND") || hql.endsWith(" and")) {
+                  hql = hql.substring(0, hql.length() - 4).trim();
+              }
+
+              Query query = session.createQuery(hql);
 
 	    Iterator iterator = condicionalQuery.getParametrosValores().iterator();
 	    int i = 97;

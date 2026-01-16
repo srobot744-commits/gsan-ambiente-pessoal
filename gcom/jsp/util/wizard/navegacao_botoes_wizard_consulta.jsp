@@ -12,6 +12,7 @@
    String numeroPaginaAnterior = (Integer.parseInt(numeroPagina) - 1) + "";
    String numeroPaginaPosterior = (Integer.parseInt(numeroPagina) + 1) + "";
    StatusWizard statusWizard = (StatusWizard)session.getAttribute("statusWizard");
+String totalPaginasWizard = "" + statusWizard.getRelacaoNumeroPaginaCaminho().size();
    StatusWizard.StatusWizardItem itemWizard = statusWizard.retornarItemWizard(Integer.parseInt(numeroPagina));
    pageContext.setAttribute("voltarFiltro", voltarFiltro);
    pageContext.setAttribute("numeroPagina", numeroPagina);
@@ -28,9 +29,9 @@
 	<tr>
 		<td width="20%">
 		</td>
-		<!-- Apresenta na tela o botão Voltar -->
+		<!-- Apresenta na tela o boto Voltar -->
 		<logic:equal name="numeroPagina" 
-			value="<%=""+((StatusWizard)session.getAttribute("statusWizard")).getRelacaoNumeroPaginaCaminho().size()%>">
+			value="<%= totalPaginasWizard %>">
 			<%StatusWizard.StatusWizardItem item = statusWizard
 				.retornarItemWizard(Integer.parseInt(numeroPaginaAnterior));%>
 			<td align="right"  width="33%">
@@ -44,7 +45,7 @@
  			&nbsp;&nbsp;
   		</logic:equal>
     		
-		<!-- Apresenta na tela o botão Avançar -->
+		<!-- Apresenta na tela o boto Avanar -->
 		<logic:equal name="numeroPagina" value="1">
 			<td align="right" width="75%">
 				<input name="avancar" type="button" class="bottonRightCol" value="Avan&ccedil;ar" onClick="javascript:window.location.href='/gsan/<bean:write name="statusWizard" property="caminhoActionPrincipalWizard"/>.do?action=<%=itemPosterior.getCaminhoActionInicial() %>';" />
@@ -55,9 +56,9 @@
 			</td>
         </logic:equal>
 
-		<!-- Apresenta na tela os dois botões, Voltar e Avançar -->
+		<!-- Apresenta na tela os dois botes, Voltar e Avanar -->
 		<logic:notEqual name="numeroPagina"
-			value="<%=""+((StatusWizard)session.getAttribute("statusWizard")).getRelacaoNumeroPaginaCaminho().size()%>">
+			value="<%= totalPaginasWizard %>">
 			<logic:notEqual name="numeroPagina" value="1">
 				<%StatusWizard.StatusWizardItem item2 = statusWizard
 						.retornarItemWizard(Integer.parseInt(numeroPaginaAnterior));%>

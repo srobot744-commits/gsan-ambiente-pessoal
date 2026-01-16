@@ -1,0 +1,29 @@
+==========================================================
+🧩 Corrigindo módulo: batchGerarResumoIndicadoresComercializacao
+   ✅ Corrigido e salvo: /opt/gsan/descriptors/batchGerarResumoIndicadoresComercializacao/META-INF/ejb-jar.xml
+🧩 Corrigindo módulo: batchGerarArquivoTextoContasCobrancaEmpresa
+   ✅ Corrigido e salvo: /opt/gsan/descriptors/batchGerarArquivoTextoContasCobrancaEmpresa/META-INF/ejb-jar.xml
+🧩 Corrigindo módulo: batchAtualizarLigacaoAguaLigadoAnaliseParaLigado
+   ✅ Corrigido e salvo: /opt/gsan/descriptors/batchAtualizarLigacaoAguaLigadoAnaliseParaLigado/META-INF/ejb-jar.xml
+🧩 Corrigindo módulo: batchGerarResumoAcoesCobrancaCronogramaEncerrarOS
+   ✅ Corrigido e salvo: /opt/gsan/descriptors/batchGerarResumoAcoesCobrancaCronogramaEncerrarOS/META-INF/ejb-jar.xml
+   ⚠️ Arquivo ausente: /opt/gsan/descriptors/batchEncerrarComandoOSSeletivaInspecaoAnormalidade/META-INF/ejb-jar.xml
+   ⚠️ Arquivo ausente: /opt/gsan/descriptors/batchGerarDadosArquivoAcompanhamentoServico/META-INF/ejb-jar.xml
+🧩 Corrigindo módulo: batchInserirResumoAcoesCobrancaCronograma
+   ✅ Corrigido e salvo: /opt/gsan/descriptors/batchInserirResumoAcoesCobrancaCronograma/META-INF/ejb-jar.xml
+🧩 Corrigindo módulo: batchEmitirOrdemDeFiscalizacao
+   ✅ Corrigido e salvo: /opt/gsan/descriptors/batchEmitirOrdemDeFiscalizacao/META-INF/ejb-jar.xml
+🧩 Corrigindo módulo: batchGerarResumoLigacoesEconomiasPorAno
+   ✅ Corrigido e salvo: /opt/gsan/descriptors/batchGerarResumoLigacoesEconomiasPorAno/META-INF/ejb-jar.xml
+🧩 Corrigindo módulo: batchGerarTxtOsInspecaoAnormalidade
+   ✅ Corrigido e salvo: /opt/gsan/descriptors/batchGerarTxtOsInspecaoAnormalidade/META-INF/ejb-jar.xml
+   ⚠️ Arquivo ausente: /opt/gsan/descriptors/batchProgramacaoAutoRoteiroAcompServico/META-INF/ejb-jar.xml
+🧩 Corrigindo módulo: batchGerarResumoAcoesCobrancaCronograma
+   ✅ Corrigido e salvo: /opt/gsan/descriptors/batchGerarResumoAcoesCobrancaCronograma/META-INF/ejb-jar.xml
+🧩 Corrigindo módulo: batchGerarResumoDiarioNegativacao
+   ✅ Corrigido e salvo: /opt/gsan/descriptors/batchGerarResumoDiarioNegativacao/META-INF/ejb-jar.xml
+🧩 Corrigindo módulo: batchAtualizarCodigoDebitoAutomatico
+   ✅ Corrigido e salvo: /opt/gsan/descriptors/batchAtualizarCodigoDebitoAutomatico/META-INF/ejb-jar.xml
+🔧 Ajuste específico: ControladorAnaliseGeracaoContaGCOM
+----------------------------------------------------------
+✅ Correção consolidada concluída. Log: /root/scripts-gsan/logs/fix_ejb_all_2025-11-08-2216.log
